@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.range_wrep{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #023eef;
+  }
+  
+  .container {
+    background-color:  #7b97e4;
+    width: 50rem;
+    height: 25rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 30rem;
+  }
+  
+  input[type="range"]::-webkit-slider-runnable-track {
+    background: #ffcd03bf;
+    height: 0.6rem;
+    border-radius: 10px;
+  }
+  
+  input[type="range"]::-moz-range-track {
+    background: #023eef;
+    height: 0.5rem;
+    border-radius: 10px;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+     -webkit-appearance: none;
+     appearance: none;
+     margin-top: -12px;
+     background-color: #ff6969;
+     height: 2rem;
+     width: 2rem; 
+     border-radius: 50%;
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+      border: none;
+      border-radius: 0;
+      background-color: #f3c305;
+      height: 2rem;
+      width: 2rem;
+      border-radius: 50%;
+  }
+  
+  input[type="range"]:focus {
+    outline: none;
+  }
+  
+  input[type="range"]:focus::-webkit-slider-thumb {
+    border: 1px solid #f01d0a;
+    outline: 3px solid #fdd801;
+    outline-offset: 0.125rem;
+  }
+  
+  input[type="range"]:focus::-moz-range-thumb {
+    border: 1px solid #ed0f07;
+    outline: 3px solid #eeda08;
+    outline-offset: 0.125rem;     
+  }
+  
+  .image {
+      transition: all 0.5s ease-in-out;
+      width: 100px;
+      height: 100px;
+  }
+  
+  .baby {
+      position: absolute;
+      top: 20%;
+      left: 16%;
+      background-image: url("../img/img_1.png");
+      width: 100px;
+      height: 100px;
+      transition: all 0.5s ease-in-out;
+  }
+  
+  .child {
+      position: absolute;
+      top: 20%;
+      left: 25%;
+      background-image: url("../img/img_2.png");
+      width: 100px;
+      height: 100px;
+      transition: all 0.5s ease-in-out;
+  }
+  
+  .woman {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background-image: url("../img/img_3.png");
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.date {
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    background-image: url("../img/img_4.png");
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.family {
+    position: absolute;
+    top: 20%;
+    left: 53%;
+    background-image: url("../img/img_5.png");
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.elderly {
+    position: absolute;
+    top: 20%;
+    left: 62%;
+    background-image: url("../img/img_6.png");
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.angel {
+    position: absolute;
+    top: 20%;
+    left: 72%;
+    background-image: url("../img/img_7.png");
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
